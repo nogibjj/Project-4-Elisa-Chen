@@ -1,0 +1,8 @@
+requests
+black
+fastapi
+pytest
+pylint
+uvicorn[standard]
+pytest-cov
+git+https://github.com/LIAAD/yake
