@@ -10,17 +10,19 @@ app = FastAPI()
 async def root():
     """Home Page with GET HTTP Method"""
 
-    return {"message": "Hello! Generate a random activity to do using the path \"/get_activity\""}
+    return {"message": "Hello! Generate a random activity to do using the path /activity"}
 
 @app.get("/activity")
-async def get_activity():
+async def activity():
     """Get an activity from Boredapi.com
     Parameters
     ----------
 
     returns : dict
     """
-    return get_activity()
+    data = get_activity()
+
+    return data
 
 if __name__ == "__main__":
     uvicorn.run(app, port=8080, host="0.0.0.0")
