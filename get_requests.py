@@ -1,9 +1,8 @@
 import requests
-import json
 
 def get_activity():
     url = "https://www.boredapi.com/api/activity"
-    Data = requests.get(url)
+    Data = requests.get(url, timeout = 20)
     json_data = Data.json()
     print(json_data)
     return json_data

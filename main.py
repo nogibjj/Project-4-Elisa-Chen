@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
 import uvicorn
 from get_requests import get_activity
 
