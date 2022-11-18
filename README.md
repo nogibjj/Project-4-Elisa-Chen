@@ -1,4 +1,4 @@
-[![CI](https://github.com/nogibjj/Project-4-Elisa-Chen/actions/workflows/makefile.yml/badge.svg)](https://github.com/nogibjj/Project-4-Elisa-Chen/actions/workflows/makefile.yml) https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoidGtTMm5ZSlgrWERrNDljbjB5YkpRVkhHKzlINWpVQUhEY3ZqbVdhcWYxR0ZJV3pkUVBoTENHemM0WC8rdERXQ2lMUDRvWHJCYWxXQzNnekNRQkdVd3VNPSIsIml2UGFyYW1ldGVyU3BlYyI6Ik9IL2RnOHFpRjIwVG1ITUoiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main
+[![CI](https://github.com/nogibjj/Project-4-Elisa-Chen/actions/workflows/makefile.yml/badge.svg)](https://github.com/nogibjj/Project-4-Elisa-Chen/actions/workflows/makefile.yml) [![AWS CD](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoidGtTMm5ZSlgrWERrNDljbjB5YkpRVkhHKzlINWpVQUhEY3ZqbVdhcWYxR0ZJV3pkUVBoTENHemM0WC8rdERXQ2lMUDRvWHJCYWxXQzNnekNRQkdVd3VNPSIsIml2UGFyYW1ldGVyU3BlYyI6Ik9IL2RnOHFpRjIwVG1ITUoiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 # Project-4-Elisa-Chen - Activity Generator
 
 This repository contains the source code, config files and a short video demo of my activity generator program using continuous integration and continuous delivery methods. 
