@@ -3,7 +3,7 @@
 
 This repository contains the source code, config files and a short video demo of my activity generator program using continuous integration and continuous delivery methods. 
 
-<insert diagram>
+![Project_4](https://user-images.githubusercontent.com/25168588/202618952-57517222-0201-4c91-a601-86b5f07c0be9.png)
 
 ## Key Objectives and Project Description
 This project was created as part of the IDS 706 Data Engineering Class at Duke. The goal of the project was to create a Microservice that returns a JSON payload and performs a Data Engineering related task. We are expected to perform Continuous Integration with Github Actions and configure build server to deploy changes on build (Continuous Delivery) using FastAPI.
@@ -35,5 +35,3 @@ Refresh the page for a new suggestion.
   "accessibility": 1
 }
 ```
-
-
