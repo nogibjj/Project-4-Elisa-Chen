@@ -12,6 +12,8 @@ I wanted to create a program that will recommend an activity for you to do rando
 
 ## Demo Video
 
+[https://loom.com/share/632cf4af10e84e9c9571c2186d4a2024](https://loom.com/share/632cf4af10e84e9c9571c2186d4a2024)
+
 ## Methodology
 1. The activity was obtained from BoredAPI using `requests` package in Python and stored in a JSON object
 2. FastAPI was leveraged to display the randomly generated activity
