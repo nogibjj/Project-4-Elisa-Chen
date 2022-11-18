@@ -36,11 +36,11 @@ async def activity():
     return data
 
 @app.get("/activity/{ActivityType}")
-async def get_activity_type(ActivityType: ActivityType):
+async def get_activity_type(activity_type: ActivityType):
     """Get an activity according to the user's activity type"""
 
-    activity = ActivityType.value
-    data = get_activity(activity_type = activity)
+    activity_t = activity_type.value
+    data = get_activity(activity_type = activity_t)
 
     return data
 
