@@ -19,6 +19,11 @@ I wanted to create a program that will recommend an activity for you to do rando
 4. Continuous Delivery was enabled using AWS CodeBuild.
 
 ## Example Output
+
+Link to generate activity: [https://ps3pduk3yp.us-east-1.awsapprunner.com/activity](https://ps3pduk3yp.us-east-1.awsapprunner.com/activity)
+
+Refresh the page for a new suggestion.
+
 ```
 {
   "activity": "Sit in the dark and listen to your favorite music with no distractions",
