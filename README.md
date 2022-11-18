@@ -20,9 +20,7 @@ I wanted to create a program that will recommend an activity for you to do rando
 
 ## Example Output
 
-Link to generate activity: [https://ps3pduk3yp.us-east-1.awsapprunner.com/activity](https://ps3pduk3yp.us-east-1.awsapprunner.com/activity)
-
-Refresh the page for a new suggestion.
+Link to the FastAPI documentation: [https://ps3pduk3yp.us-east-1.awsapprunner.com/docs](https://ps3pduk3yp.us-east-1.awsapprunner.com/activity)
 
 ```
 {
