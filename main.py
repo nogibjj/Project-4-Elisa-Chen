@@ -1,6 +1,18 @@
 from fastapi import FastAPI
 import uvicorn
 from get_requests import get_activity
+from enum import Enum
+
+class ActivityType(str, Enum):
+    educational = "education"
+    recreational = "recreational"
+    social = "social"
+    diy = "diy"
+    charity = "charity"
+    cooking = "cooking"
+    relaxation = "relaxation"
+    music = "music"
+    busywork = "busywork"
 
 app = FastAPI()
 
@@ -20,6 +32,15 @@ async def activity():
     returns : dict
     """
     data = get_activity()
+
+    return data
+
+@app.get("/activity/{ActivityType}")
+async def get_activity_type(ActivityType: ActivityType):
+    """Get an activity according to the user's activity type"""
+
+    activity = ActivityType.value
+    data = get_activity(activity_type = activity)
 
     return data
 
