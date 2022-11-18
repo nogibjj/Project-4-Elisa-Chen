@@ -21,7 +21,7 @@ app = FastAPI()
 async def root():
     """Home Page with GET HTTP Method"""
 
-    return {"message": "Hello! Generate a random activity to do using the path /activity"}
+    return {"message": "Hello! Generate a random activity to do using the path /activity. Hope you enjoy the activity :)"}
 
 @app.get("/activity")
 async def activity():
